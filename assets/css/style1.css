@@ -1,0 +1,65 @@
+.bgdecoration{
+    background-position-x: center;
+    background: linear-gradient(to bottom right,rgb(8, 0, 0),rgb(3, 192, 205));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.logcontainers{
+    background-color: aliceblue;
+    box-shadow: 0 4px 5px rgb(5, 5, 5);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+    width: 350px;
+    height: 400px;
+    text-align: center;
+}
+
+.intro{
+    text-align: center;
+    color: rgb(7, 102, 109);
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input1{
+    color: #030304;
+    width: 38%;
+    padding: 5px;
+    margin-bottom: 25px;
+    border-radius: 11px;
+    margin-left: 10%;
+    border: 1px solid #090b0e;
+}
+
+.input2{
+    color: #030304;
+    width: 38%;
+    padding: 5px;
+    margin-bottom: 25px;
+    border-radius: 11px;
+    margin-left: 14%;
+    border: 1px solid #090b0e;
+}
+
+.logBtn{
+    background-color: #11768f;
+    border: none;
+    color: rgba(254, 253, 255, 0.999);
+    padding: 13px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+}
